@@ -1,13 +1,13 @@
     body{
         background-color: #EFE7E3;
-        max-width: 1600px;
+        max-width: 1500px;
     }
     
     .frame{
         margin: 30px 150px;
         display: flex;
         flex-direction: column;
-        width: 1600px;
+        width: 1500px;
     }
     /* navigator*/
     .navigator{
@@ -15,7 +15,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top:15px;
-        width: 1600px;
+        width: 1500px;
     }
     
     h3{
