@@ -1,0 +1,328 @@
+body{
+    background-color: #EFE7E3;
+}
+
+.frame{
+    margin: 30px 250px;
+    display: flex;
+    flex-direction: column;
+}
+/* navigator*/
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:15px;
+}
+
+h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #C2B4AB;
+    margin:0;
+}
+
+li{
+    display:inline;
+    align-self: center;
+    margin:0;
+    margin-left: 15px;
+}
+
+ul{
+    margin:0;
+}
+
+.site-name{
+    margin:0;
+    font-family:'Dongle', sans-serif;
+    font-size: 48px;
+    color: #C2B4AB;
+}
+
+.nav-menu{
+    font-family: 'Dongle', sans-serif;
+    font-weight: 400;
+    font-size:48px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    transition: 0.3s;
+}
+
+/* dashboard */
+
+.dsahboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.main_image{
+    width: 400px;
+    height: 400px;
+}
+
+.korean-comment{
+    font-family: 'Dongle', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.sample{
+    background-color: pink;
+
+}
+.sample:hover{
+    background-color: transparent;
+    color:white;
+    transition: none;
+}
+
+.highlight{
+    color:white;
+}
+
+.highlight:hover{
+    background-color: pink;
+    transition: none;
+    color:black;
+}
+
+.type1:hover{
+    background-color:yellowgreen;
+}
+
+.type2:hover{
+    background-color:skyblue;
+}
+
+.type3:hover{
+    background-color:purple;
+}
+
+/* footer */
+
+.work-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact{
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 48px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 3px solid #C2B4AB;
+    padding-top: 30px;
+}
+
+.contact-text{
+    color: black;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/* profile section */
+
+.profile-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-image-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-picture{
+    width: 550px;
+    height: 550px;
+}
+
+.introduction>h2{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.introduction>p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+#capability{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.publication_section{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.publication_section>h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+.main_publication{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.main_conference{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.year{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin:0
+}
+#text_id{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px;
+    margin-bottom:30px;
+}
+
+.thesis{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin:0
+}
+
+.publisher{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin:0
+}
+
+/* footer section */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.footer-comment{
+    text-align: center;
+}
+
+a[title="Flaticon"]:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+/* Recent works*/
+
+.recent-menu{
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.recent-works{
+    display: flex;
+    flex-direction: column;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.thumbnail{
+    width:400px;
+    height: 400px;
+}
+
+.article-name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.article-info{
+    margin:0px 30px;
+}
+
+.article-comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 100px;
+}
+
+.MORE{
+    width: 100px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    padding: 0px;
+    text-align: center;
+    align-self: flex-start;
+}
+
+#name1{
+    font-size: 45px;
+    right:70px;
+}
+
+#name2{
+    font-size: 45px;
+}

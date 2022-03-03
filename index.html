@@ -5,8 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leejisss portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=
+        Montserrat:wght@100&family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    안녕하세요 이지수입니다. 홈페이지 제작중입니다.
+    <div class="frame">
+        <nav class="navigator">
+            <h3 class="site-name">Leejisss</h3>
+            <ul>
+                <li><a href="index.html" class="nav-menu">EXPERIMENT</a></li>
+                <li><a href="publication.html" class="nav-menu">PUBLICATION</a></li>
+            </ul>
+        </nav>
+        <div class="dashboard">
+                <div class="about_me">
+                    <img class="main_image" src="/이지수.png">
+                    <h1 class="korean-comment">안녕하세요 제 이름은 <a class="sample"> 이지수 입니다.</a> <br> 
+                        <a class="highlight type1"> 주어진 문제</a>를 <a class="highlight type2">제대로 </a>
+                        해결하는 <a class="highlight type3">머신러닝 엔지니어</a><br> 를 꿈꿉니다.</h1>
+                </div>
+                <div class="profile-section">
+                    <div class="introduction">
+                        <h2>EDUCATION</h2>
+                        <p>2020.08 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;동서대학교 컴퓨터공학부 공학사<br>
+                            2022.02 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;동서대학교 컴퓨터공학과 공학석사</p>
+        
+                        <h2>ABOUT ME</h2>
+                        <p>동서대학교 컴퓨터공학과 석사과정을 졸업했습니다.<br>
+                            주 연구분야로 생체신호 데이터를 이용한 자세 판단 다중 분류를 수행하였습니다.<br></p>
+                            <h2>CAPABILITY</h2>
+                            <p id="capability">Python<br>Matlab<br>Tensorflow<br>Keras</p>
+                    </div>
+                </div>
+
+                <div class="publication_section">
+                    <h2>PUBLICATION</h2>
+                    <div class="main_publication">
+                        <div class="year">
+                            <h2>연도</h2>
+                            <p id="text_id">2021. 05<br>&nbsp</p>
+                            <p id="text_id">2021. 05<br>&nbsp</p>
+                            <p id="text_id">2021. 02<br>&nbsp</p>
+                            <p id="text_id">2021. 02</p>
+                            <p id="text_id">2020. 03</p>
+                        </div>
+                        <div class="thesis">
+                            <h2>논문 제목</h2>
+                            <p id="text_id">Implementation of PPG Measurement System based on CNN for personalized 
+                                Exercise Intensity<br>&nbsp</p>
+                            <p id="text_id">Analysis on Electrocardiogram Measurement Performance Using Metal 
+                                Electrode Based on 1-D Convolution Neural Network for Application of Wearable Device</p>
+                            <p id="text_id">Implementation of Rehabilitation Exercise Posture 
+                                Determination System based on CNN using EMG and Acceleration Sensors</p>
+                            <p id="text_id">Implementation of CNN Model for Classification of User Sitting Posture Based on Pressure Distribution</p>
+                            <p id="text_id">PTT기반 운동 강도 모니터링 시스템 구현</p>
+                        </div>
+                        <div class="publisher">
+                            <h2>학회</h2>
+                            <p id="text_id">Journal of Computational and Theoretical Nanoscience(JCTN)</p>
+                            <p id="text_id">Journal of Computational and Theoretical Nanoscience(JCTN)</p>
+                            <p id="text_id">Springer<br>&nbsp</p>
+                            <p id="text_id">Springer</p>
+                            <p id="text_id">한국융합신호처리학회</p>
+                        </div>
+                    </div>
+                    <h2>CONFERENCE</h2>
+                    <div class="main_conference">
+                        <div class="year">
+                            <h2>연도</h2>
+                            <p id="text_id">2021. 08</p>
+                            <p id="text_id">2021. 08</p>
+                            <p id="text_id">2021. 07</p>
+                            <p id="text_id">2020. 12</p>
+                            <p id="text_id">2020. 07</p>
+                            
+                            <button class="MORE"><a href="publication.html">MORE ></a></button>
+                        </div>
+                        <div class="thesis">
+                            <h2>논문 제목</h2>
+                            <p id="text_id">OpenCV 기반의 안면 인식 기술을 이용한 사용자 인증 시스템 구현</p>
+                            <p id="text_id">PPG와 IMU센서 기반의 산업 안전 모니터링 시스템 구현</p>
+                            <p id="text_id">Exercise Posture Classification System based on CNN using 
+                                Multi-Channel EMG and IMU Sensor</p>
+                            <p id="text_id">근활성도 분석을 통한 보행 자세 판단 시스템 구현</p>
+                            <p id="text_id">Implementation of the Exercise Intensity Monitoring 
+                                System based on Heart Rate Sensor</p>
+                        </div>
+                        <div class="publisher">
+                            <h2>학회</h2>
+                            <p id="text_id">한국정보통신학회</p>
+                            <p id="text_id">한국인공지능융합기술학회</p>
+                            <p id="text_id">ICCT2021</p>
+                            <p id="text_id">한국융합신호처리학회</p>
+                            <p id="text_id">ICCT2020</p>
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+        <footer class="work-footer">
+            <h3 class="contact">CONTACT ME</h3>
+            <div class="contact-links">
+                <p class="contact-text">kkookkw3@naver.com</p>
+            </div>
+        </footer>
+
+    </div>
 </body>
 </html>
