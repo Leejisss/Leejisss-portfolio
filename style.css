@@ -1,13 +1,13 @@
     body{
         background-color: #EFE7E3;
-        max-width: 1500px;
+        max-width: 1550px;
     }
     
     .frame{
         margin: 30px 150px;
         display: flex;
         flex-direction: column;
-        width: 1500px;
+        width: 1550px;
     }
     /* navigator*/
     .navigator{
@@ -15,7 +15,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top:15px;
-        width: 1500px;
+        width: 1550px;
     }
     
     h3{
@@ -310,11 +310,10 @@
     /* Recent works*/
     
     .recent-menu{
-        font-family: 'Dongle', sans-serif;
-        font-size: 50px;
-        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 600;
         color:black;
-        text-align: center;
         margin-top: 100px;
     }
     
